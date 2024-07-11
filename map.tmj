@@ -168,7 +168,7 @@
                  "height":21,
                  "id":67,
                  "name":"door_open_zone2",
-                 "opacity":1,
+                 "opacity":0,
                  "properties":[
                         {
                          "name":"autoClose",
@@ -193,7 +193,7 @@
                         {
                          "name":"openTriggerMessage",
                          "type":"string",
-                         "value":""
+                         "value":"door open"
                         }, 
                         {
                          "name":"tag",
@@ -203,7 +203,7 @@
                         {
                          "name":"zone",
                          "type":"string",
-                         "value":"door_open_zone2"
+                         "value":"door\/door_open_zone2"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -261,7 +261,7 @@
                         {
                          "name":"zone",
                          "type":"string",
-                         "value":"door_open_zone2"
+                         "value":"door\/door_open_zone1"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -294,7 +294,7 @@
                  "height":21,
                  "id":68,
                  "name":"door_open_zone1",
-                 "opacity":1,
+                 "opacity":0,
                  "properties":[
                         {
                          "name":"autoClose",
@@ -319,7 +319,7 @@
                         {
                          "name":"openTriggerMessage",
                          "type":"string",
-                         "value":""
+                         "value":"open door"
                         }, 
                         {
                          "name":"tag",
@@ -329,7 +329,7 @@
                         {
                          "name":"zone",
                          "type":"string",
-                         "value":"door_open_zone1"
+                         "value":"door\/door_open_zone1"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -362,12 +362,12 @@
                  "height":21,
                  "id":63,
                  "name":"door_open",
-                 "opacity":1,
+                 "opacity":0,
                  "properties":[
                         {
                          "name":"autoClose",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"autoOpen",
@@ -387,7 +387,7 @@
                         {
                          "name":"zone",
                          "type":"string",
-                         "value":"door_open_zone1"
+                         "value":"door\/door_open_zone2"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -902,7 +902,7 @@
         {
          "columns":6,
          "firstgid":1,
-         "image":"tilesets\/WA_Special_Zones.png",
+         "image":"..\/wa-pw-door\/tilesets\/WA_Special_Zones.png",
          "imageheight":64,
          "imagewidth":192,
          "margin":0,
@@ -925,7 +925,7 @@
         {
          "columns":12,
          "firstgid":13,
-         "image":"tilesets\/WA_Decoration.png",
+         "image":"..\/wa-pw-door\/tilesets\/WA_Decoration.png",
          "imageheight":256,
          "imagewidth":384,
          "margin":0,
@@ -938,7 +938,7 @@
         {
          "columns":10,
          "firstgid":109,
-         "image":"tilesets\/WA_Miscellaneous.png",
+         "image":"..\/wa-pw-door\/tilesets\/WA_Miscellaneous.png",
          "imageheight":352,
          "imagewidth":320,
          "margin":0,
@@ -951,7 +951,7 @@
         {
          "columns":12,
          "firstgid":219,
-         "image":"tilesets\/WA_Other_Furniture.png",
+         "image":"..\/wa-pw-door\/tilesets\/WA_Other_Furniture.png",
          "imageheight":416,
          "imagewidth":384,
          "margin":0,
@@ -964,7 +964,7 @@
         {
          "columns":25,
          "firstgid":375,
-         "image":"tilesets\/WA_Room_Builder.png",
+         "image":"..\/wa-pw-door\/tilesets\/WA_Room_Builder.png",
          "imageheight":1280,
          "imagewidth":800,
          "margin":0,
@@ -977,7 +977,7 @@
         {
          "columns":13,
          "firstgid":1375,
-         "image":"tilesets\/WA_Seats.png",
+         "image":"..\/wa-pw-door\/tilesets\/WA_Seats.png",
          "imageheight":448,
          "imagewidth":416,
          "margin":0,
@@ -990,7 +990,7 @@
         {
          "columns":10,
          "firstgid":1557,
-         "image":"tilesets\/WA_Tables.png",
+         "image":"..\/wa-pw-door\/tilesets\/WA_Tables.png",
          "imageheight":864,
          "imagewidth":320,
          "margin":0,
@@ -1003,7 +1003,7 @@
         {
          "columns":6,
          "firstgid":1827,
-         "image":"tilesets\/WA_Logo_Long.png",
+         "image":"..\/wa-pw-door\/tilesets\/WA_Logo_Long.png",
          "imageheight":32,
          "imagewidth":192,
          "margin":0,
@@ -1016,7 +1016,7 @@
         {
          "columns":25,
          "firstgid":1833,
-         "image":"tilesets\/WA_Exterior.png",
+         "image":"..\/wa-pw-door\/tilesets\/WA_Exterior.png",
          "imageheight":1088,
          "imagewidth":800,
          "margin":0,
@@ -1029,7 +1029,7 @@
         {
          "columns":13,
          "firstgid":2683,
-         "image":"tilesets\/WA_User_Interface.png",
+         "image":"..\/wa-pw-door\/tilesets\/WA_User_Interface.png",
          "imageheight":672,
          "imagewidth":416,
          "margin":0,
