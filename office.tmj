@@ -647,8 +647,8 @@
                         }, 
                         {
                          "name":"soundRadius",
-                         "type":"string",
-                         "value":""
+                         "type":"int",
+                         "value":0
                         }],
                  "rotation":0,
                  "type":"variable",
