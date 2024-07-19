@@ -607,22 +607,22 @@
         {
          "name":"mapCopyright",
          "type":"string",
-         "value":"Credits: WorkAdventure (https:\/\/WorkAdventu.re) \nLicense: CC-BY-SA 3.0 (http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/)"
+         "value":"Credits: Kilian Schmelmer (Komponent.Works) and WorkAdventure (https:\/\/WorkAdventu.re) \nLicense: CC-BY-SA 3.0 (http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/)"
         }, 
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"A perfect virtual office to get started with WorkAdventure!"
+         "value":"Learning the Code Door"
         }, 
         {
          "name":"mapImage",
          "type":"string",
-         "value":"office.png"
+         "value":"Tech.png"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Office"
+         "value":"PW-Door-Prefab"
         }, 
         {
          "name":"script",
